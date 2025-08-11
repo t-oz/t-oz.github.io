@@ -11,35 +11,26 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Computer Science, Stony Brook University, 2027 (expected), advised by [Prof. Fusheng Wang]((https://www3.cs.stonybrook.edu/~fuswang/))
+* B.A. in Computer Science, Boston College, 2023, advised by [Prof. Amittai Aviram](http://www.amittai.com)
+* B.S. in Management, Boston College, 2023
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Fall 2021 -- Spring 2024: Research Assistant for Cognitive States Project
+  * Second-author publication in MIT’s ACL conference proceedings (“Towards Event Factuality Prediction”, Murzaku et. Al, 2023).
+  * Designed unified database schema for training and testing examples extracted from said corpora.
+  * Fine-tuned deep learning model to perform experiments as the lone undergrad on a team of professors and Ph.D. students.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Spring 2021 -- Spring 2023: Information Technology Services Intern at Boston College
+  * Assisted with organization of internal decision support website and University-wide SQL tutorial rollout
+  * Led numerous beginner/intermediate SQL workshops for audiences of various professional staff throughout the University
+  * Trained AI-powered course registration chatbot for the University to answer FAQs and reduce strain on help staff
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Fall 2020 -- Fall 2021: Computer Science Instructor at Juni Learning
+  *	Guided 6+ students per week to achieve challenging programming curriculum via Zoom
+  *	Conceived, developed and produced educational video explaining blockchain for national campaign
+  *	Communicated professionally with parents, supervisors and peers
 
 Publications
 ======
@@ -55,10 +46,11 @@ Talks
   
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Spring 2021 -- Summer 2023: Undergraduate Teaching Assistant at Boston College
+  * Computer Systems 3x
+  * Compilers 2x
+  * Computer Networks 1x
+  * Computer Architecture 1x
+* Fall 2023 -- Fall 2024: Graduate Teaching Assistant at Stony Brook University
+  * Compilers 2x
+  * Computer Networks 1x
