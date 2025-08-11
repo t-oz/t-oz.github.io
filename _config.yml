@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Tyler Osborne"
 title_separator          : "-"
 name                     : &name "Tyler Osborne"
-description              : &description "Tyler Osborne's personal website"
+description              : &description "Tyler Osborne's Academic Website"
 url                      : https://t-oz.github.io
 baseurl                  : ""
 repository               : "t-oz/t-oz.github.io"
