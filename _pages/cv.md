@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D. in Computer Science, Stony Brook University, 2027 (expected), advised by [Prof. Fusheng Wang]((https://www3.cs.stonybrook.edu/~fuswang/))
+* Ph.D. in Computer Science, Stony Brook University, 2027 (expected), advised by [Prof. Fusheng Wang](https://www3.cs.stonybrook.edu/~fuswang/)
 * B.A. in Computer Science, Boston College, 2023, advised by [Prof. Amittai Aviram](http://www.amittai.com)
 * B.S. in Management, Boston College, 2023
 
