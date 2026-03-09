@@ -11,6 +11,8 @@ Tyler is a third-year Computer Science Ph.D. candidate at Stony Brook University
 
 News and Updates
 ======
+### November 2025: Presented Paper at AMIA Symposium
+The conference in Atlanta was a great experience. Thanks to all who attended my talk!
 ### August 2025: Research Proficiency Exam Passed
 I passed my RPE and am now officially a Ph.D. candidate!
 ### June 2025: Conference paper accepted at AMIA Symposium
