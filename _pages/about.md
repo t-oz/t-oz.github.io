@@ -11,6 +11,8 @@ Tyler is a third-year Computer Science Ph.D. candidate at Stony Brook University
 
 News and Updates
 ======
+### March 2026: Started Part-Time Role as Machine Learning Engineer at Kouper Health
+I will work on AI applications for outpatient healthcare at Kouper in NYC as I work towards my degree. Excited to be there!
 ### November 2025: Presented Paper at AMIA Symposium
 The conference in Atlanta was a great experience. Thanks to all who attended my talk!
 ### August 2025: Research Proficiency Exam Passed
