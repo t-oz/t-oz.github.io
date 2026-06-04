@@ -11,6 +11,8 @@ Tyler is a third-year Computer Science Ph.D. candidate at Stony Brook University
 
 News and Updates
 ======
+### June 2026: New Preprint Published
+Pleased to announce that our recent [preprint](https://github.com/StonyBrookDB/Clinician-Centered-LLM-Discharge-Summaries/blob/main/Manuscript.pdf), _Clinician-Centered Evaluation of Large Language Model-Generated Discharge Summaries for Longer Hospitalizations: Insights from Hospitalists and Primary Care Physicians_, is under review at _NPJ Digital Medicine_.
 ### March 2026: Started Part-Time Role as Machine Learning Engineer at Kouper Health
 I will work on AI applications for outpatient healthcare at Kouper in NYC as I work towards my degree. Excited to be there!
 ### November 2025: Presented Paper at AMIA Symposium
