@@ -17,6 +17,17 @@ Education
 
 Work experience
 ======
+* Spring 2026 -- Fall 2026: Machine Learning Engineering Intern at Kouper Health
+  * Designed, implemented and benchmarked a referral extraction pipeline to ingest faxed referral forms and start agentic outbound calls to patients to schedule appointments, generating significant interest from clients.
+  * Iterated inbound phone call quality assurance agent, resulting in improved precision and recall across metrics such as patient intent and frustration and better containment rates.
+  * Evaluated various models and prompts to potentially upgrade components of inbound call agent and ruling out models which appeared superior on the surface but introduced behavioral regressions, resulting in organizational restraint on model upgrades and maintaining product reliability.
+
+* Spring 2024 -- Present: Research Assistant in BMIDB Lab at Stony Brook University
+  * First-author conference paper at AMIA Symposium
+  * First-author journal article at NPJ Digital Medicine
+  * Implemented HIPAA-compliant pipelines for large-scale processing of real-world clinical notes, resulting in high-quality automated discharge summary generation as evaluated by over a dozen internal medicine and primary care physicians.
+  * Designed and built HIPAA-compliant full-stack applications for study data collection
+
 * Fall 2021 -- Spring 2024: Research Assistant for Cognitive States Project
   * Second-author publication in MIT’s ACL conference proceedings (“Towards Event Factuality Prediction”, Murzaku et. Al, 2023).
   * Designed unified database schema for training and testing examples extracted from said corpora.
