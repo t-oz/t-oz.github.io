@@ -11,6 +11,8 @@ Tyler is a third-year Computer Science Ph.D. candidate at Stony Brook University
 
 News and Updates
 ======
+### October 2026: Journal Article Published
+Our recent journal [article](https://www.nature.com/articles/s41746-026-03320-y), _Clinician-Centered Evaluation of Large Language Model-Generated Discharge Summaries for Longer Hospitalizations: Insights from Hospitalists and Primary Care Physicians_, has been published in _NPJ Digital Medicine_.
 ### June 2026: New Preprint Published
 Pleased to announce that our recent [preprint](https://www.medrxiv.org/content/10.64898/2026.06.03.26354858v1), _Clinician-Centered Evaluation of Large Language Model-Generated Discharge Summaries for Longer Hospitalizations: Insights from Hospitalists and Primary Care Physicians_, is under review at _NPJ Digital Medicine_.
 ### March 2026: Started Part-Time Role as Machine Learning Engineer at Kouper Health
