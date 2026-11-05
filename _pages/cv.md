@@ -11,13 +11,13 @@ redirect_from:
 
 Education
 ======
-* Ph.D. in Computer Science, Stony Brook University, 2027 (expected), advised by [Prof. Fusheng Wang](https://www3.cs.stonybrook.edu/~fuswang/)
+* Ph.D. in Computer Science, Stony Brook University, 2028 (expected), advised by [Prof. Fusheng Wang](https://www3.cs.stonybrook.edu/~fuswang/)
 * B.A. in Computer Science, Boston College, 2023, advised by [Prof. Amittai Aviram](http://www.amittai.com)
 * B.S. in Management, Boston College, 2023
 
 Work experience
 ======
-* Spring 2026 -- Fall 2026: Machine Learning Engineering Intern at Kouper Health
+* Spring 2026 -- Fall 2026: Machine Learning Engineering Intern at Kouper Health (Since acquired by [Ellipsis Health](https://ellipsishealth.com))
   * Designed, implemented and benchmarked a referral extraction pipeline to ingest faxed referral forms and start agentic outbound calls to patients to schedule appointments, generating significant interest from clients.
   * Iterated inbound phone call quality assurance agent, resulting in improved precision and recall across metrics such as patient intent and frustration and better containment rates.
   * Evaluated various models and prompts to potentially upgrade components of inbound call agent and ruling out models which appeared superior on the surface but introduced behavioral regressions, resulting in organizational restraint on model upgrades and maintaining product reliability.
