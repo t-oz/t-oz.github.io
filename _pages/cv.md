@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[View CV (PDF)]({{ base_path }}/files/tyler-osborne-cv.pdf)
+
 Education
 ======
 * Ph.D. in Computer Science, Stony Brook University, 2028 (expected), advised by [Prof. Fusheng Wang](https://www3.cs.stonybrook.edu/~fuswang/)
