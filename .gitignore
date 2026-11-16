@@ -2,8 +2,16 @@
 _site/
 .sass-cache/
 
-# Ignore the directory for local files during development
-local/
+# Keep local development files private, except the CV source and rebuild files.
+local/*
+!local/cv/
+local/cv/*
+!local/cv/tyler-osborne-cv.tex
+!local/cv/template-original.tex
+!local/cv/LICENSE-template
+!local/cv/README.md
+!local/cv/expected-text.txt
+!local/cv/verify.py
 
 # Ignore the Gemfile that is generated
 Gemfile.lock

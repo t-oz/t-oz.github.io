@@ -1,0 +1,97 @@
+% Adapted from Jake's Resume by Jake Gutierrez (MIT).
+% https://github.com/jakegut/resume — see LICENSE-template.
+% Local CV: independently maintained wording, with advisor hyperlinks.
+\documentclass[letterpaper,10pt]{article}
+\usepackage[margin=0.45in]{geometry}
+\usepackage{fontspec}
+\setmainfont{texgyretermes-regular.otf}[
+  BoldFont=texgyretermes-bold.otf,
+  ItalicFont=texgyretermes-italic.otf,
+  BoldItalicFont=texgyretermes-bolditalic.otf]
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{fontawesome5}
+\usepackage[hidelinks]{hyperref}
+% Every hyperlink uses black, unadorned text and a clickable external-link icon.
+\let\plainhref\href
+\renewcommand{\href}[2]{\plainhref{#1}{#2\nobreak\hspace{0.25em}\raisebox{0.15ex}{\fontsize{7}{7}\selectfont\faIcon{external-link-alt}}}}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\linespread{1.02}
+\raggedright
+\raggedbottom
+% Jake's Resume section style: small capitals and a horizontal rule.
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{8pt}{3pt}
+\setlist[itemize]{leftmargin=12pt,label=\textbullet,topsep=1pt,itemsep=0pt,parsep=0pt,partopsep=0pt}
+\newcommand{\role}[1]{\par\vspace{5pt}\textbf{#1}\par\nopagebreak}
+% Author–date citations: at most three authors, sentence-case titles,
+% italic venues, and consistent terminal punctuation.
+\newcommand{\publication}[4]{\item #1 (#2). #3. \textit{#4}.}
+\begin{document}
+\begin{center}
+{\fontsize{23}{25}\selectfont\scshape Tyler Osborne}\\[2pt]
+{\fontsize{10.5}{12.5}\selectfont tyler.osborne@stonybrook.edu\quad\textbar\quad t-oz.github.io\quad\textbar\quad (781) 292-0661}
+\end{center}
+\vspace{-8pt}
+
+\section{Education}
+\begin{itemize}
+\item Ph.D. in Computer Science, Stony Brook University, 2028 (expected), advised by \href{https://www3.cs.stonybrook.edu/~fuswang/}{Prof. Fusheng Wang}
+\item B.A. in Computer Science, Boston College, 2023, advised by \href{http://www.amittai.com}{Prof. Amittai Aviram}
+\item B.S. in Management, Boston College, 2023
+\end{itemize}
+\section{Work experience}
+\role{Spring 2026 -- Fall 2026: Machine Learning Engineering Intern at Kouper Health (Since acquired by Ellipsis Health)}
+\begin{itemize}
+\item Designed, implemented and benchmarked a referral extraction pipeline to ingest faxed referral forms and start agentic outbound calls to patients to schedule appointments, generating significant interest from clients.
+\item Iterated inbound phone call quality assurance agent, resulting in improved precision and recall across metrics such as patient intent and frustration and better containment rates.
+\item Evaluated various models and prompts to potentially upgrade components of inbound call agent and ruling out models which appeared superior on the surface but introduced behavioral regressions, resulting in organizational restraint on model upgrades and maintaining product reliability.
+\end{itemize}
+\role{Spring 2024 -- Present: Research Assistant in BMIDB Lab at Stony Brook University}
+\begin{itemize}
+\item First-author journal article in \textit{npj Digital Medicine}; collaborated with over a dozen internal medicine and primary care physicians.
+\item Implemented HIPAA-compliant pipelines for large-scale processing of real-world clinical notes, resulting in high-quality automated discharge summary generation as evaluated by over a dozen internal medicine and primary care physicians.
+\item Designed and built HIPAA-compliant full-stack applications for study data collection.
+\end{itemize}
+\role{Fall 2021 -- Spring 2024: Research Assistant for Cognitive States Project}
+\begin{itemize}
+\item Second-author publication in MIT’s ACL conference proceedings.
+\item Designed unified database schema for training and testing examples extracted from said corpora.
+\item Fine-tuned deep learning model to perform experiments as the lone undergrad on a team of professors and Ph.D. students.
+\end{itemize}
+\role{Spring 2021 -- Spring 2023: Information Technology Services Intern at Boston College}
+\begin{itemize}
+\item Assisted with organization of internal decision support website and University-wide SQL tutorial rollout.
+\item Led numerous beginner/intermediate SQL workshops for audiences of various professional staff throughout the University.
+\item Trained AI-powered course registration chatbot for the University to answer FAQs and reduce strain on help staff.
+\end{itemize}
+\role{Fall 2020 -- Fall 2021: Computer Science Instructor at Juni Learning}
+\begin{itemize}
+\item Guided 6+ students per week to achieve challenging programming curriculum via Zoom.
+\item Conceived, developed and produced educational video explaining blockchain for national campaign.
+\item Communicated professionally with parents, supervisors and peers.
+\end{itemize}
+\section{Publications}
+\begin{itemize}
+\publication{\textbf{Osborne, T.}, Mahmud, T., Zheng, X., et al.}{2026}
+  {Clinician-centered evaluation of large language model-generated discharge summaries for longer hospitalizations}
+  {npj Digital Medicine}
+\publication{\textbf{Osborne, T.}, Abbasi, S., Hong, S., et al.}{2025}
+  {Towards inpatient discharge summary automation via large language models: A multidimensional evaluation with a HIPAA-compliant instance of GPT-4o and clinical expert assessment}
+  {American Medical Informatics Association Annual Symposium}
+\publication{Murzaku, J., \textbf{Osborne, T.}, Aviram, A., et al.}{2023}
+  {Towards generative event factuality prediction}
+  {Findings of the Association for Computational Linguistics: ACL 2023}
+\publication{\textbf{Osborne, T.}}{2023}
+  {Cognitive states: Belief state inference via deep learning}
+  {Undergraduate thesis, Boston College, Department of Computer Science}
+\end{itemize}
+\section{Teaching}
+\role{Fall 2023 -- Fall 2024: Graduate Teaching Assistant at Stony Brook University}
+\hspace*{12pt}Compilers (2 terms)\enspace\textbullet\enspace Computer Networks (1 term)\par
+\role{Spring 2021 -- Summer 2023: Undergraduate Teaching Assistant at Boston College}
+\hspace*{12pt}Computer Systems (3 terms)\enspace\textbullet\enspace Compilers (2 terms)\enspace\textbullet\enspace Computer Networks (1 term)\enspace\textbullet\enspace Computer Architecture (1 term)\par
+\end{document}
