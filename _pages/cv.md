@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-PDF version [[here]]({{ base_path }}/files/tyler-osborne-cv.pdf)
+PDF version [here]({{ base_path }}/files/tyler-osborne-cv.pdf).
 
 Education
 ======
